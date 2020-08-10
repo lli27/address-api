@@ -1,0 +1,17 @@
+# PG
+POSTGRESQL:
+  USER:
+  PASSWD:
+  HOST:
+  PORT:
+  DBNAME:
+
+# SQL 要爬取的门店地址及城市信息
+GET_DATA:
+# 插入数据
+INSERT_DATA: "update tablename set longitude={},latitude={} where id={}"
+
+# 注册高德地图账号，生成key
+KEY:
+GEO_URL: 'http://restapi.amap.com/v3/geocode/geo'
+REGEO_URL: 'http://restapi.amap.com/v3/geocode/regeo'
